@@ -1,0 +1,40 @@
+{
+    "users":[
+        {
+            "userName": "xz60",
+            "displayName": "xinran",
+            "password": "password",
+            "email": "xz60@rice.edu",
+            "birth": "1994-11-09",
+            "zipcode": "77054",
+            "phoneNum": "281-250-5948"
+        },
+        {
+          "userName": "test",
+          "displayName": "example",
+          "password": "password",
+          "email": "test@rice.edu",
+          "birthDate": "1970-01-02",
+          "zipcode": "77054",
+          "phoneNum": "123-123-1234"
+        },
+        {
+          "userName": "test1",
+          "displayName": "sdfsfsdf",
+          "password": "password",
+          "email": "test1@rice.edu",
+          "birthDate": "1970-01-02",
+          "zipcode": "77054",
+          "phoneNum": "123-123-1234"
+        },
+        {
+          "userName": "test2",
+          "displayName": "test2",
+          "password": "password",
+          "email": "test2@rice.edu",
+          "birthDate": "1970-01-02",
+          "zipcode": "77054",
+          "phoneNum": "123-123-1234"
+        }
+    ]
+}

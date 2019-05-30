@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 70.0.3538 (Windows 10 0.0.0)" package="" timestamp="2018-11-12T02:27:30" id="0" hostname="DESKTOP-I91PDQC" tests="12" errors="0" failures="0" time="1.654">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.113" classname="Chrome_70_0_3538_(Windows_10_0_0_0).AppComponent"/>
+  <testcase name="LoginComponent should log in a user" time="0.226" classname="Chrome_70_0_3538_(Windows_10_0_0_0).LoginComponent"/>
+  <testcase name="LoginComponent should update success message" time="0.111" classname="Chrome_70_0_3538_(Windows_10_0_0_0).LoginComponent"/>
+  <testcase name="LoginComponent should not log in an invalid user" time="0.079" classname="Chrome_70_0_3538_(Windows_10_0_0_0).LoginComponent"/>
+  <testcase name="LoginComponent should update error message" time="0.107" classname="Chrome_70_0_3538_(Windows_10_0_0_0).LoginComponent"/>
+  <testcase name="LoginComponent should logout a user" time="0.073" classname="Chrome_70_0_3538_(Windows_10_0_0_0).LoginComponent"/>
+  <testcase name="LoginComponent should fetch the users profile information" time="0.101" classname="Chrome_70_0_3538_(Windows_10_0_0_0).LoginComponent"/>
+  <testcase name="MainComponent should fetch articles for current logged in user" time="0.174" classname="Chrome_70_0_3538_(Windows_10_0_0_0).MainComponent"/>
+  <testcase name="MainComponent should updata the search key" time="0.168" classname="Chrome_70_0_3538_(Windows_10_0_0_0).MainComponent"/>
+  <testcase name="MainComponent should filter displayed articles by the search keyword" time="0.186" classname="Chrome_70_0_3538_(Windows_10_0_0_0).MainComponent"/>
+  <testcase name="MainComponent should add articles when adding a follower" time="0.153" classname="Chrome_70_0_3538_(Windows_10_0_0_0).MainComponent"/>
+  <testcase name="MainComponent should remove articles when removing a follower" time="0.163" classname="Chrome_70_0_3538_(Windows_10_0_0_0).MainComponent"/>
+  <system-out>
+    <![CDATA[Chrome 70.0.3538 (Windows 10 0.0.0) WARN: 'Navigation triggered outside Angular zone, did you forget to call 'ngZone.run()'?'
+,Chrome 70.0.3538 (Windows 10 0.0.0) ERROR: 'Unhandled Promise rejection:', 'Cannot match any routes. URL Segment: 'main'', '; Zone:', 'ProxyZone', '; Task:', 'Promise.then', '; Value:', Error: Cannot match any routes. URL Segment: 'main'
+Error: Cannot match any routes. URL Segment: 'main'
+    at ApplyRedirects.noMatchError (./node_modules/@angular/router/fesm5/router.js?:1455:16)
+    at CatchSubscriber.eval [as selector] (./node_modules/@angular/router/fesm5/router.js?:1436:29)
+    at CatchSubscriber.error (./node_modules/rxjs/_esm5/internal/operators/catchError.js?:38:31)
+    at MapSubscriber.Subscriber._error (./node_modules/rxjs/_esm5/internal/Subscriber.js?:89:26)
+    at MapSubscriber.Subscriber.error (./node_modules/rxjs/_esm5/internal/Subscriber.js?:69:18)
+    at MapSubscriber.Subscriber._error (./node_modules/rxjs/_esm5/internal/Subscriber.js?:89:26)
+    at MapSubscriber.Subscriber.error (./node_modules/rxjs/_esm5/internal/Subscriber.js?:69:18)
+    at MapSubscriber.Subscriber._error (./node_modules/rxjs/_esm5/internal/Subscriber.js?:89:26)
+    at MapSubscriber.Subscriber.error (./node_modules/rxjs/_esm5/internal/Subscriber.js?:69:18)
+    at TapSubscriber._error (./node_modules/rxjs/_esm5/internal/operators/tap.js?:67:26), 'Error: Cannot match any routes. URL Segment: 'main'
+    at ApplyRedirects.noMatchError (./node_modules/@angular/router/fesm5/router.js?:1455:16)
+    at CatchSubscriber.eval [as selector] (./node_modules/@angular/router/fesm5/router.js?:1436:29)
+    at CatchSubscriber.error (./node_modules/rxjs/_esm5/internal/operators/catchError.js?:38:31)
+    at MapSubscriber.Subscriber._error (./node_modules/rxjs/_esm5/internal/Subscriber.js?:89:26)
+    at MapSubscriber.Subscriber.error (./node_modules/rxjs/_esm5/internal/Subscriber.js?:69:18)
+    at MapSubscriber.Subscriber._error (./node_modules/rxjs/_esm5/internal/Subscriber.js?:89:26)
+    at MapSubscriber.Subscriber.error (./node_modules/rxjs/_esm5/internal/Subscriber.js?:69:18)
+    at MapSubscriber.Subscriber._error (./node_modules/rxjs/_esm5/internal/Subscriber.js?:89:26)
+    at MapSubscriber.Subscriber.error (./node_modules/rxjs/_esm5/internal/Subscriber.js?:69:18)
+    at TapSubscriber._error (./node_modules/rxjs/_esm5/internal/operators/tap.js?:67:26)'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

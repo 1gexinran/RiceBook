@@ -1,0 +1,143 @@
+.nav{
+    position: absolute;
+    right: 25px;
+    top:50px;
+}
+.navi{
+    position: relative;
+    background-color: #e7e7e7;
+    
+    color: black;
+    padding: 12px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.navi:hover{
+    background-color: #4CAF50;
+    color:white;
+}
+div {
+    border: 0.5px solid;
+    border-color: darkgray;
+    text-align: center;
+    align-items: center;
+}
+.main img {
+    width: 130px;
+    height: 130px;
+}
+
+.userInfo img {
+    width: 250px;
+    height: 250px;
+}
+.foloSign{
+    position: absolute;
+    text-align: center;
+    top: 517px;
+    right: 87px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.userNfol {
+    position: absolute;
+    top: 140px;
+    right: 25px;
+}
+
+.followers {
+    position: absolute;
+    top: 580px;
+    right: 45px
+}
+.followers .rm{
+    position: relative;
+    top: -115px;
+    right:-31px;
+    padding: 5px 5px;
+    background-color: rgba(221, 10, 10, 0.712);
+    font-size: 10px;
+    font-weight: bold;
+}
+.followers .rm:hover{
+    background-color:rgb(134, 13, 13);
+}
+
+.searchArea {
+    position: absolute;
+    top: 375px;
+    right:450px;
+}
+
+.postArea {
+    position: absolute;
+    right: 450px;
+    top: 400px;
+    background-color: cornsilk;
+}
+.postArea .icon{
+    width: 120px;
+    height: 120px;
+}
+.postArea img {
+    width: 250px;
+    height: 250px;
+}
+
+.postTbl p {
+    width: 500px;
+}
+
+
+.buttons {
+    position: relative;
+    left: 20em;
+    width: 10em;
+}
+
+.addPost {
+    position: absolute;
+    top: 140px;
+    right: 450px;
+    background: #e7e7e7;
+} 
+.inputText {
+    width: 925px;
+    height: 150px;
+    background-color: cornsilk;
+}
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+button{
+    padding: 8px 17px;
+    font-size: 13px;
+    font-weight: 300;
+    cursor: pointer;
+    background-color:#e7e7e7;
+    color: black;
+    border: 1px solid;
+}
+button:hover{
+    background-color: lightslategrey;
+}
+.followers .addFloBtn{
+    background-color: #4CAF50;
+    color:black;
+    font-size: 15px;
+    font-weight: bold;
+}
+.followers .addFloBt:hover{
+    background-color: rgb(47, 114, 49);
+}
+.userInfo, .followers{
+    background-color: gainsboro;
+}
+.comments {
+    position: relative;
+    left: 197.5%;
+    text-align: center;
+  }

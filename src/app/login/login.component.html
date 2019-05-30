@@ -1,0 +1,21 @@
+<p class="title">
+  Welcome to Knowhere!
+</p>
+
+
+<div class='registerLink'>
+  Don't have an account? <a routerLink='/registeration'>Sign Up</a>
+</div>
+<p class = 'msg' id = 'msg'>
+  {{msg}}
+</p>
+
+<div class='logForm'>
+  <form [formGroup]='loginForm'>
+    <table class='loginTable'>
+      <tr> <td class='info'><p>User Name: </p></td> <td><input formControlName='userName' id = 'uN'/></td> </tr>
+      <tr> <td class='info'><p>Password: </p></td> <td><input formControlName='password' type='password' id = 'pw'/></td> </tr>
+    </table>
+    <button (click)='login()' id = 'loginbtn'>Login</button>
+  </form>
+</div>

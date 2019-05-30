@@ -1,0 +1,96 @@
+<div class="nav">
+  <button class="navi" (click)="naviToP()">My Profile</button>
+  <button class="navi" (click)="naviToL()" id = 'logoutbtn'>Log Out</button>
+</div>
+
+<div class='main'>
+  <P class = 'title'>Playground</P>
+  <div class='userNfol'>
+
+    <div class='userInfo'>
+      <div>
+        <img src='{{headshot}}' />
+      </div>
+      <p class='userName'>
+        {{user?.displayName}}
+      </p>
+      <p class='currStatus' id = 'currStatus'>
+        {{currStatus}}
+      </p>
+      <input [(ngModel)]='newStatus' placeholder="What's up" id = 'status' /><br />
+      <button (click)='updateStatus()' id ='changebtn'>Update</button>
+    </div>
+  </div>
+  <p class="foloSign">Followers </p>
+
+  <div class='followers'>
+    <div *ngFor='let fo of sfollowers; let i = index'>
+      <div>
+        <img src='{{fo.img}}' />
+        <button class="rm" (click)='remove(i)'>X</button>
+      </div>
+      <p class='fName'>
+        {{fo?.name}}
+      </p>
+      <p class='fStatus'>
+        {{fo?.status}}
+      </p>
+    </div>
+    <div class='addFlo'>
+      <input [(ngModel)]='addName' class='addName'/>
+      <button class='addFloBtn' (click)='addFlo()'>+</button>
+    </div>
+  </div>
+
+</div>
+
+
+<div class='addPost'>
+  <input type='file' class='inputImg' /><br>
+  <input type='text' [(ngModel)]='inputText' class='inputText' placeholder="share your life and joy!" id = 'addnewpost'/><br />
+  <button (click)='clearTxt()' class='clearBtn'>Clear</button>
+  <button class='postBtn' (click)='newPost()'id = 'postbtn'>Post</button>
+  <input type="checkbox" [(ngModel)]='textonly' />Text-Only
+</div>
+
+
+<div class='searchArea'>
+  <input [(ngModel)]='searchKey' placeholder="Search by author or text" />
+</div>
+
+
+<div class='postArea'>
+
+  <div class='post'>
+    <table class='postTbl'>
+
+      <div *ngFor='let post of sposts|search:searchKey; let i = index' class = 'postcard'>
+        <tr>
+          <td>
+            <img class = 'icon' src='{{post.img}}'/><br>
+            {{post?.author}}
+          </td>
+          <td>
+            <p>
+              {{post?.content}}
+            </p>
+          </td>
+          <td *ngIf="post.img!=''">
+            <img src='{{post.img}}' />
+          </td>
+        </tr>
+        <div class='comments' *ngIf='!comments[i]'>
+          Some comments<br />Some other comments
+        </div>
+
+       <div class='buttons'>
+         <button>Comment</button>
+         <button>Edit</button>
+         <button (click)='hideAndShow(i)'>Hide/Show Comments</button>
+       </div>
+
+      </div>
+
+    </table>
+  </div>
+</div>

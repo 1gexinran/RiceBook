@@ -1,0 +1,87 @@
+.mainLink {
+    top : 25px;
+    position: absolute;
+    width: 100%;
+    left:80%;
+  }
+.nav{
+    position: relative;
+    background-color: #e7e7e7;
+    color: black;
+    padding: 12px 30px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+.nav:hover{
+    background-color: #4CAF50;
+    color:white;
+}
+  
+table{
+    text-align: left;
+    border: 1px solid;
+}
+
+td {
+    font-size: 20px;
+}
+.currTbl{
+    border: 0px;
+}
+
+
+.currInfo {
+    position: absolute;
+    left: 200px;
+    top: 70px;
+    background-color: aliceblue;
+    padding: 30px;
+}
+
+.currInfo table {
+    margin-left: 0em;
+    margin-top: 2em;
+}
+
+.updaInfo table {
+    margin-left: 0em;
+    margin-top: 2em;
+}
+
+.updaInfo {
+    position: absolute;
+    left: 200px;
+    top: 600px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+.updaWarn {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+    width: 500px;
+    font-size: 20px;
+}
+/* .updaInfo tr:nth-child(even){
+    background-color: lightgray;
+} */
+button{
+    background-color: #e7e7e7;
+    color: black;
+    padding: 12px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #4CAF50;
+    color:white;
+}
+
+.updaTbl{
+    text-align: center;
+}
+  

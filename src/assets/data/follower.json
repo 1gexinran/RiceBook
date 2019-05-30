@@ -1,0 +1,8 @@
+{
+    "followers": [
+      {"id": 0, "name": "gps", "status": "Nothing new.", "img": "/assets/img2.png"},
+      {"id": 1, "name": "zhz", "status": "Good", "img": "/assets/img3.png"},
+      {"id": 2, "name": "fl", "status": "Doing well", "img": "/assets/img4.png"},
+      {"id": 3, "name": "wpg", "status": "haha", "img": "/assets/img5.png"}
+    ]
+}
