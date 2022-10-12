@@ -22,7 +22,7 @@
     "@angular/router": "^6.1.0",
     "core-js": "^2.5.4",
     "fetch-mock": "^7.1.0",
-    "jasmine-reporters": "^2.3.2",
+    "jasmine-reporters": "^2.5.0",
     "mock-fetch": "^1.0.0",
     "rxjs": "~6.2.0",
     "rxjs-compat": "^6.3.3",
